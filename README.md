@@ -18,3 +18,7 @@ Screens:
 <a href="https://ibb.co/jC6frn"><img src="https://preview.ibb.co/nHHmWn/2018_04_20_202055_1920x1080.png" alt="2018_04_20_202055_1920x1080" border="0"></a>
 
 <a href="https://ibb.co/hbO4HS"><img src="https://preview.ibb.co/bCKdcS/2018_04_20_202025_1920x1080.png" alt="2018_04_20_202025_1920x1080" border="0"></a>
+
+<a href="https://ibb.co/nkc6xS"><img src="https://preview.ibb.co/j3atcS/2018_04_20_210552_1920x1080_scrot.png" alt="2018_04_20_210552_1920x1080_scrot" border="0"></a>
+
+<a href="https://ibb.co/bMTDcS"><img src="https://preview.ibb.co/m0ARxS/2018_04_20_210608_1920x1080_scrot.png" alt="2018_04_20_210608_1920x1080_scrot" border="0"></a>
