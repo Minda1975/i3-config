@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Load resources
+
+xrdb -merge .Xresources
+
+export GTK_OVERLAY_SCROLLING=0
+# Fire up apps
+xsetroot  -mod 22 22 -bg "#050505" -fg "#422a03" &
+setxkbmap -layout "us,lt,ru" -option "grp:ctrl_alt_toggle" &
+
+exec i3
