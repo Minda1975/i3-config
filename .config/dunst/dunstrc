@@ -155,7 +155,7 @@
     #width = 3
     #color = "#aaaaaa"
     width = 3
-    color = "#d8d8d8"
+    color = "#cbd6e2"
 
 [shortcuts]
 
@@ -181,22 +181,22 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#282828"
-    foreground = "#585858"
+    background = "#223b54"
+    foreground = "#627e99"
     timeout = 5
 
 [urgency_normal]
     #background = "#285577"
     #foreground = "#CECFD1"
     #background = "#26282B"
-    background = "#383838"
-    foreground = "#d8d8d8"
+    background = "#405c79"
+    foreground = "#cbd6e2"
     timeout = 5
 
 [urgency_critical]
-    background = "#ab4642"
-    foreground = "#e8e8e8"
-    frame_color = "#d8d8d8"
+    background = "#bf8b56"
+    foreground = "#e5ebf1"
+    frame_color = "#cbd6e2"
     timeout = 0
 
 
