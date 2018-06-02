@@ -13,10 +13,6 @@ All this good is working in Debian 9.4
 
 Screens:
 
-<a href="https://ibb.co/dmCGGx"><img src="https://preview.ibb.co/i2Zk9H/2018_04_21_172237_1920x1080_scrot.png" alt="2018_04_21_172237_1920x1080_scrot" border="0"></a>
-
-<a href="https://ibb.co/cNNBic"><img src="https://preview.ibb.co/bDvWic/2018_04_21_172253_1920x1080_scrot.png" alt="2018_04_21_172253_1920x1080_scrot" border="0"></a>
-
-<a href="https://ibb.co/gQyj3c"><img src="https://preview.ibb.co/jV9ric/2018_04_21_172307_1920x1080_scrot.png" alt="2018_04_21_172307_1920x1080_scrot" border="0"></a>
-
-<a href="https://ibb.co/jEiCpH"><img src="https://preview.ibb.co/hvqspH/2018_04_21_182813_1920x1080.png" alt="2018_04_21_182813_1920x1080" border="0"></a>
+![Screenshot](screen.png?raw=true "Clear")
+![Screenshot](screen_1.png?raw=true "Bussy")
+![Screenshot](screen_2.png?raw=true "Bussy")
