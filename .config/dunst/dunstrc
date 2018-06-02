@@ -142,7 +142,7 @@
     dmenu = /usr/bin/dmenu -p dunst:
     
     # Browser for opening urls in context menu.
-    browser = /usr/bin/qutebrowser
+    browser = /usr/bin/firefox
 
     # Align icons left/right/off
     icon_position = left
@@ -155,7 +155,7 @@
     #width = 3
     #color = "#aaaaaa"
     width = 3
-    color = "#cbd6e2"
+    color = "#c1c1c1"
 
 [shortcuts]
 
@@ -181,22 +181,22 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#223b54"
-    foreground = "#627e99"
+    background = "#121212"
+    foreground = "#333333"
     timeout = 5
 
 [urgency_normal]
     #background = "#285577"
     #foreground = "#CECFD1"
     #background = "#26282B"
-    background = "#405c79"
-    foreground = "#cbd6e2"
+    background = "#222222"
+    foreground = "#c1c1c1"
     timeout = 5
 
 [urgency_critical]
-    background = "#bf8b56"
-    foreground = "#e5ebf1"
-    frame_color = "#cbd6e2"
+    background = "#5f8787"
+    foreground = "#999999"
+    frame_color = "#c1c1c1"
     timeout = 0
 
 

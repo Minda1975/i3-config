@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka 8
+font pango:Inconsolata-g 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -183,7 +183,6 @@ bar {
 }
 
 #Scortcuts
-bindsym $mod+F1 exec --no-startup-id ~/.scripts/shutdown.sh
 bindsym $mod+Shift+Return exec --no-startup-id sakura -e /usr/bin/mc
 bindsym $mod+F2 exec --no-startup-id ~/.scripts/mpdmenu
 bindsym $mod+F3 exec --no-startup-id rofi -modi "fb:~/.scripts/rofi-file-browser.sh" -show fb
@@ -231,27 +230,27 @@ new_window normal
 new_float normal
 #new_float none
 
-## Base16 Harmonic16 Dark
-# Author: Jannik Siebert (https://github.com/janniks)
+## Base16 Black Metal (Nile)
+# Author: metalelf0 (https://github.com/metalelf0)
 #
 # You can use these variables anywhere in the i3 configuration file.
 
-set $base00 #0b1c2c
-set $base01 #223b54
-set $base02 #405c79
-set $base03 #627e99
-set $base04 #aabcce
-set $base05 #cbd6e2
-set $base06 #e5ebf1
-set $base07 #f7f9fb
-set $base08 #bf8b56
-set $base09 #bfbf56
-set $base0A #8bbf56
-set $base0B #56bf8b
-set $base0C #568bbf
-set $base0D #8b56bf
-set $base0E #bf568b
-set $base0F #bf5656
+set $base00 #000000
+set $base01 #121212
+set $base02 #222222
+set $base03 #333333
+set $base04 #999999
+set $base05 #c1c1c1
+set $base06 #999999
+set $base07 #c1c1c1
+set $base08 #5f8787
+set $base09 #aaaaaa
+set $base0A #777755
+set $base0B #aa9988
+set $base0C #aaaaaa
+set $base0D #888888
+set $base0E #999999
+set $base0F #444444
 
 
 
@@ -267,7 +266,7 @@ client.background $base07
 bindsym $mod+Shift+f [class="Firefox"] focus
 bindsym $mod+Shift+g [class="Geany"] focus
 bindsym $mod+Shift+h [class="qBittorrent"] focus
-bindsym $mod+Shift+s [class="smplayer"] focus
+bindsym $mod+Shift+s [class="MPlayer"] focus
 for_window [class="Firefox"] focus
 for_window [class="Links"] focus
 for_window [class="MPlayer"] focus
@@ -285,10 +284,27 @@ assign [class="xterm|XTerm"]                                                    
 assign [class="Firefox|Links"]                                                   → II: 
 assign [class="gmpc|Gmpc"]                                                          → IV: 
 assign [class="MPlayer"]                                                            → V: 
-assign [class="feh"]                                                               → III: 
 assign [class="geany|Geany"]                                                        → VI: 
 assign [class="lxtask|Lxtask"]                                                      → VII: 
 assign [class="qbittorrent|qBittorrent"]                                            → X:
 
 #Float
 for_window [class="MPlayer"] floating enable
+for_window [class="feh"] floating enable
+
+#Shutdown, reboot, lock screen
+set $Locker i3lock && sleep 1
+
+set $mode_system System (l) lock, (e) logout, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+F1 mode "$mode_system"
