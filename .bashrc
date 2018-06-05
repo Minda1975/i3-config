@@ -112,4 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PS1="\n\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;39m\][\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;205m\]\W\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;39m\]]\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n \[$(tput sgr0)\]\[\033[38;5;175m\]\A\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;135m\]>>\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;196m\][\[$(tput sgr0)\]\[\033[38;5;126m\]\$?\[$(tput sgr0)\]\[\033[38;5;196m\]]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+. "$HOME/.bash/alias"
+. "$HOME/.bash/prompt"
