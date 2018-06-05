@@ -1,6 +1,6 @@
 [global]
     #font = Monospace 8
-    font = Iosevka 10
+    font = Inconsolata 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -153,9 +153,9 @@
     #icon_folders = /usr/share/icons/Paper/48x48/notifications/
 [frame]
     #width = 3
-    #color = "#aaaaaa"
+    #color = "#e0e0e0"
     width = 3
-    color = "#c1c1c1"
+    color = "#dab997"
 
 [shortcuts]
 
@@ -181,22 +181,22 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#121212"
-    foreground = "#333333"
+    background = "#3a3a3a"
+    foreground = "#8a8a8a"
     timeout = 5
 
 [urgency_normal]
     #background = "#285577"
     #foreground = "#CECFD1"
     #background = "#26282B"
-    background = "#222222"
-    foreground = "#c1c1c1"
+    background = "#4e4e4e"
+    foreground = "#dab997"
     timeout = 5
 
 [urgency_critical]
-    background = "#5f8787"
-    foreground = "#999999"
-    frame_color = "#c1c1c1"
+    background = "#d75f5f"
+    foreground = "#d5c4a1"
+    frame_color = "#dab997"
     timeout = 0
 
 
