@@ -1,33 +1,33 @@
-! Base16 Classic Dark
-! Author: Jason Heeris (http://heeris.id.au)
+! Base16 Gruvbox dark, hard
+! Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
-! base00: #151515
-! base01: #202020
-! base02: #303030
-! base03: #505050
-! base04: #B0B0B0
-! base05: #D0D0D0
-! base06: #E0E0E0
-! base07: #F5F5F5
-! base08: #AC4142
-! base09: #D28445
-! base0A: #F4BF75
-! base0B: #90A959
-! base0C: #75B5AA
-! base0D: #6A9FB5
-! base0E: #AA759F
-! base0F: #8F5536
+! base00: #1d2021
+! base01: #3c3836
+! base02: #504945
+! base03: #665c54
+! base04: #bdae93
+! base05: #d5c4a1
+! base06: #ebdbb2
+! base07: #fbf1c7
+! base08: #fb4934
+! base09: #fe8019
+! base0A: #fabd2f
+! base0B: #b8bb26
+! base0C: #8ec07c
+! base0D: #83a598
+! base0E: #d3869b
+! base0F: #d65d0e
 
 ! Enable the extended coloring options
 rofi.color-enabled: true
 
 ! Property Name     BG       Border   Separator
-rofi.color-window:  #202020, #202020, #151515
+rofi.color-window:  #3c3836, #3c3836, #1d2021
 
 ! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
-rofi.color-normal:  #202020, #D0D0D0, #202020, #202020, #F5F5F5
-rofi.color-active:  #202020, #6A9FB5, #202020, #202020, #6A9FB5
-rofi.color-urgent:  #202020, #AC4142, #202020, #202020, #AC4142
+rofi.color-normal:  #3c3836, #d5c4a1, #3c3836, #3c3836, #fbf1c7
+rofi.color-active:  #3c3836, #83a598, #3c3836, #3c3836, #83a598
+rofi.color-urgent:  #3c3836, #fb4934, #3c3836, #3c3836, #fb4934
 
 ! Set the desired separator style
 rofi.separator-style: solid
