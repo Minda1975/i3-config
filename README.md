@@ -7,7 +7,7 @@ So I decided to create a separate repo, because i like i3.
 
 All i3 configuration is in .config/i3/config. This includes things like key bindings, colorsetc.  Thought has been put into the colors, key bindings and supplementary scripts to make life easier.
 
-All scripts are in ~/.scripts. Scripts are provided to do things like take screenshots, browsing files with rofi, browsing mpd playlist, play it and power menagment with dmenu (poweroff, reboot, lock the screen etc.). Also i included fonts which apply my i3 and ~/.Xresources setup.
+All scripts are in ~/.scripts. Scripts are provided to do things like take screenshots, browsing files with rofi, browsing mpd playlist and play it, the power menagment with rofi (poweroff, reboot, lock the screen and exit). Also i included fonts which apply my i3 and ~/.Xresources setup.
 
 All this good is working in Debian 9.4
 
@@ -16,3 +16,5 @@ Screens:
 ![Screenshot](screen.png?raw=true "Clear")
 ![Screenshot](screen_1.png?raw=true "Bussy")
 ![Screenshot](screen_2.png?raw=true "Bussy")
+![Screenshot](screen_3.png?raw=true "Rofi_Power")
+![Screenshot](screen_4.png?raw=true "Rofi_Power")
