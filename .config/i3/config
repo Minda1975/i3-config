@@ -222,6 +222,7 @@ bindsym $mod+F3 exec --no-startup-id rofi -modi "fb:~/.scripts/rofi-file-browser
 bindsym $mod+F4 exec --no-startup-id ~/.scripts/screenshot
 bindsym $mod+F5 exec --no-startup-id ~/.scripts/select-screenshot
 bindsym $mod+F6 exec --no-startup-id /usr/bin/firefox
+bindsym $mod+F7 exec --no-startup-id /usr/bin/doublecmd
 
 
 #Switch
@@ -267,6 +268,7 @@ bindsym $mod+Shift+f [class="Firefox"] focus
 bindsym $mod+Shift+g [class="Geany"] focus
 bindsym $mod+Shift+h [class="qBittorrent"] focus
 bindsym $mod+Shift+s [class="MPlayer"] focus
+bindsym $mod+Shift+d [class="doublecmd|Doublecmd"] focus
 for_window [class="Firefox"] focus
 for_window [class="Links"] focus
 for_window [class="MPlayer"] focus
@@ -275,6 +277,7 @@ for_window [class="lxtask|Lxtask"] focus
 for_window [class="xterm|XTerm"] focus
 for_window [class="Terminator"] focus
 for_window [class="qbittorrent|qBittorrent"] focus
+for_window [class="doublecmd|Doublecmd"] focus
 
 
 
@@ -282,7 +285,8 @@ for_window [class="qbittorrent|qBittorrent"] focus
 # you can find the class with the program xprop
 
 assign [class="Terminator"]                                                        → I: 
-assign [class="xterm|XTerm"]                                                         → I: 
+assign [class="xterm|XTerm"]                                                        → I: 
+assign [class="doublecmd|Doublecmd"]                                              → VIII: 
 assign [class="Firefox|Links"]                                                   → II: 
 assign [class="gmpc|Gmpc"]                                                          → IV: 
 assign [class="MPlayer"]                                                            → V: 
