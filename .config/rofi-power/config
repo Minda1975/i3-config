@@ -1,4 +1,5 @@
 OPTIONS="%LOCK\n%EXIT\n%POWER\n%REBOOT"
 LAUNCHER_OPTIONS="$LAUNCHER_OPTIONS -width 100 -padding 800"
 USE_LOCKER="false" # a pure `systemctl suspend` would not lock - better use external solution
-LOCKER="i3lock"
+LOCKER="/home/mindaugas/.config/i3/fuzzy_lock.sh"
+
