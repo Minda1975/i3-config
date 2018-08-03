@@ -1,9 +1,0 @@
-pcm.!default {
-    type hw
-    card Intel
-}
-
-ctl.!default {
-    type hw
-    card Intel
-}
