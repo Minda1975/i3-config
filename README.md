@@ -11,6 +11,8 @@ i3status configuration is in ~/.config/i3status/i3status.conf. As status, i use 
 
 All this good is working in Debian Unstable (Sid).
 
+Just in case you want to see some workflow click [here](https://www.youtube.com/watch?v=WR5J3KMc1f4&feature=youtu.be).
+
 Screens:
 
 ![Screenshot](screen.png?raw=true "Clear")
