@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Comment=There used to be only one
+Name=Validus-rev2
+Type=X-GNOME-Metatheme
+Encoding=UTF-8
+GtkTheme=Validus-rev2
+MetacityTheme=Validus-rev2
+IconTheme=Sardi Flexible Validus
+CursorTheme=Adwaita
+CursorSize=24
