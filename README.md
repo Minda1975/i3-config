@@ -7,7 +7,7 @@ So I decided to create a separate repo, because i like i3.
 
 i3 configuration is in .config/i3/config. This includes things like key bindings, colorsetc.  Thought has been put into the colors, key bindings and supplementary scripts to make life easier.
 
-i3status confoguration is in .config/i3status/i3status.conf. As status, i use [py3status](https://github.com/ultrabug/py3status).It is an extensible i3status wrapper writen in python. I use these modules: clock, loadavg, uptime, weather yahoo and mpd status. For manual how to use these modules, please check great [documentation](htpps://py3status.readthedocs.io/en/latest/)
+i3status confoguration is in .config/i3status/i3status.conf. As status, i use [py3status](https://github.com/ultrabug/py3status).It is an extensible i3status wrapper writen in python. I use these modules: clock, loadavg, uptime, weather yahoo and mpd status. For manual how to use these modules, please check great [documentation](https://py3status.readthedocs.io/en/latest/)
 
 All this good is working in Debian Unstable (Sid).
 
